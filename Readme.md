@@ -19,7 +19,7 @@ Para golang, java, cpp, c, basta você abrir um arquivo de linguagem e aceitar a
 Para typescript:
 
 ```
-cd scripts
+cd scripts  
 ./install_ts.sh # se você for usar typescript
 ```
 

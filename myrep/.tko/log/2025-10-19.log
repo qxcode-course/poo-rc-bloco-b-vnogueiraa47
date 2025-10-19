@@ -1,0 +1,10 @@
+2025-10-19 18:09:36, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-19 18:09:40, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-19 19:30:21, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-19 19:30:25, EXEC, v:1, k:poo@chinela, mode:FREE, size:22
+2025-10-19 19:37:13, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-19 19:38:25, EXEC, v:1, k:poo@chinela, mode:FREE, size:22
+2025-10-19 19:42:15, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-19 19:42:19, EXEC, v:1, k:poo@chinela, mode:FREE
+2025-10-19 19:47:38, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-19 19:47:40, EXEC, v:1, k:poo@chinela, mode:FREE, size:22

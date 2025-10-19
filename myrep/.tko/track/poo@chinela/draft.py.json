@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-19_19-30-25",
+            "content": "@@ -153,17 +153,16 @@\n ue: int)\n-:\n %0A       \n@@ -200,29 +200,8 @@\n  50)\n- and (value / 2 == 0)\n :%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-19_19-38-25",
+            "content": "@@ -213,9 +213,9 @@\n lue \n-$\n+/\n  2 =\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-19_19-47-40",
+            "content": "class Chinela:\n    def __init__(self):\n        self.__tamanho = 0\n\n    def getTamanho(self):\n        return self.__tamanho\n\n    def setTamanho(self, value: int):\n        if (value >= 20) and (value <= 50) and (value $ 2 == 0):\n            self.__tamanho = value\n        else:\n            print(\"fail: tamanho inv\u00e1lido\")\n\nchinela = Chinela()\n\n\nwhile chinela.getTamanho() == 0:\n    print(\"Digite seu tamanho de chinela\")\n    tamanho = int(input())\n    chinela.setTamanho(tamanho) \n\nprint(\"Parabens, voc\u00ea comprou uma chinela tamanho\", chinela.getTamanho())",
+            "lines": "22"
+        }
+    ]
+}
