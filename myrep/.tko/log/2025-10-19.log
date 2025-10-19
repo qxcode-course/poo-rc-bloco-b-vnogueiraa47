@@ -8,3 +8,16 @@
 2025-10-19 19:42:19, EXEC, v:1, k:poo@chinela, mode:FREE
 2025-10-19 19:47:38, MOVE, v:1, k:poo@chinela, mode:PICK
 2025-10-19 19:47:40, EXEC, v:1, k:poo@chinela, mode:FREE, size:22
+2025-10-19 19:51:15, SELF, v:1, k:poo@chinela, rate:100, alone:10, study:60
+2025-10-19 20:03:18, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-19 20:03:21, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-19 20:06:08, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-19 20:06:16, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:3
+2025-10-19 20:21:48, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100, size:12
+2025-10-19 20:21:57, EXEC, v:1, k:poo@camisa, mode:FREE
+2025-10-19 20:25:06, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-19 20:25:12, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:21
+2025-10-19 20:25:15, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0
+2025-10-19 20:25:16, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0
+2025-10-19 20:25:30, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:21
+2025-10-19 20:25:34, EXEC, v:1, k:poo@camisa, mode:FREE
