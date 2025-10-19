@@ -21,3 +21,33 @@
 2025-10-19 20:25:16, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0
 2025-10-19 20:25:30, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:21
 2025-10-19 20:25:34, EXEC, v:1, k:poo@camisa, mode:FREE
+2025-10-19 20:33:01, SELF, v:1, k:poo@camisa, rate:100, alone:10, study:50
+2025-10-19 21:09:46, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-19 21:09:51, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-19 21:29:00, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-19 21:29:02, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:30
+2025-10-19 21:29:47, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:30
+2025-10-19 21:29:53, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-19 21:33:29, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:33:31, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-19 21:33:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-19 21:34:51, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:35:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:36:50, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:37:04, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:37:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:37:35, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:40:51, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-19 21:40:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:41:16, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-19 21:42:56, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:43:12, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:31
+2025-10-19 21:46:58, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:33
+2025-10-19 21:47:11, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:33
+2025-10-19 21:47:56, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100, size:33
+2025-10-19 21:48:19, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:33
+2025-10-19 21:48:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100, size:33
+2025-10-19 21:48:37, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-19 21:48:52, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-19 21:48:57, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-19 21:49:26, SELF, v:1, k:poo@roupa, rate:100, human:sim, alone:10, study:48

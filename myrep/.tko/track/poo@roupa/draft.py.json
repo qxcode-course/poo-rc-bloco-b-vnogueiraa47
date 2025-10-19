@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-19_21-29-02",
+            "content": "@@ -750,19 +750,8 @@\n oupa\n-.getTamanho\n )%0Ama\n",
+            "lines": "30"
+        },
+        {
+            "label": "2025-10-19_21-29-47",
+            "content": "@@ -735,26 +735,22 @@\n         \n-tamanho = \n+print(\n roupa.ge\n@@ -761,39 +761,8 @@\n anho\n-%0A            print(f%22%7Btamanho%7D%22\n )%0Ama\n",
+            "lines": "30"
+        },
+        {
+            "label": "2025-10-19_21-33-29",
+            "content": "@@ -761,18 +761,16 @@\n tTamanho\n-()\n %0A       \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-34-51",
+            "content": "@@ -788,15 +788,8 @@\n t(f%22\n-size: (\n %7Btam\n@@ -793,17 +793,16 @@\n tamanho%7D\n-)\n %22)%0Amain(\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-35-32",
+            "content": "@@ -202,13 +202,8 @@\n GG%22,\n- %22ou%22\n  %22XG\n@@ -288,35 +288,52 @@\n t(f%22\n-fail: Valor\n+Tamanho\n  inv\n-%C3%A1\n+a\n lido, \n-tente\n+os tamanhos permitidos s%C3%A3o\n  %7Bta\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-36-50",
+            "content": "@@ -203,17 +203,16 @@\n G%22, %22ou%22\n-,\n  %22XG%22%5D%0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-37-04",
+            "content": "@@ -203,16 +203,17 @@\n G%22, %22ou%22\n+,\n  %22XG%22%5D%0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-37-18",
+            "content": "@@ -202,19 +202,17 @@\n GG%22, %22ou\n- %22,\n+%22\n  %22XG%22%5D%0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-37-35",
+            "content": "@@ -198,16 +198,24 @@\n %22, %22GG%22,\n+ %22ou %22, \n %22XG%22%5D%0A  \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-40-55",
+            "content": "@@ -197,16 +197,21 @@\n G%22, %22GG%22\n+,%22XG%22\n %5D%0A      \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-42-56",
+            "content": "@@ -316,11 +316,8 @@\n am1%7D\n- ou\n %22)%0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-43-12",
+            "content": "@@ -203,44 +203,8 @@\n G%22%5D%0A\n-        xg = %5B%22xg%22%5D%0A        xG = xg%0A\n     \n@@ -319,13 +319,8 @@\n %7D ou\n- %7Bxg%7D\n %22)%0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-10-19_21-46-58",
+            "content": "@@ -218,10 +218,10 @@\n = %5B%22\n-XG\n+xg\n %22%5D%0A \n@@ -354,17 +354,17 @@\n 1%7D ou %7Bx\n-G\n+g\n %7D%22)%0A    \n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-19_21-47-11",
+            "content": "@@ -236,19 +236,10 @@\n G = \n-%22%22.join(\n xg\n-)\n %0A   \n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-19_21-47-56",
+            "content": "@@ -342,17 +342,17 @@\n  inv%C3%A1lid\n-e\n+o\n , tente \n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-19_21-48-19",
+            "content": "@@ -342,17 +342,17 @@\n  inv%C3%A1lid\n-o\n+e\n , tente \n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-19_21-48-32",
+            "content": "class Roupa:\n    def __init__(self):\n        self.__tamanho: str = \"\"\n    def getTamanho(self):\n        return self.__tamanho\n    def setTamanho(self, valor: str):\n        tam = [\"PP\", \"P\", \"M\", \"G\", \"GG\"]\n        xg = [\"XG\"]\n        xG = \"\".join(xg)\n        tam1 = \", \".join(tam)\n        if valor not in tam:\n            print(f\"fail: Valor inv\u00e1lido, tente {tam1} ou {xG}\")\n        else:\n            self.__tamanho = valor\n\ndef main():\n     roupa = Roupa()\n\n     while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n        command = args[0]\n\n        if command == \"end\":\n            break\n        elif command == \"size\":\n            valor = str(args[1])\n            roupa.setTamanho(valor)\n        elif command == \"show\":\n            tamanho = roupa.getTamanho()\n            print(f\"size: ({tamanho})\")\nmain()",
+            "lines": "33"
+        }
+    ]
+}
