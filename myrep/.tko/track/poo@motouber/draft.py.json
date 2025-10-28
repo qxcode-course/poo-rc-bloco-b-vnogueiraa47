@@ -1,0 +1,164 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-28_03-48-56",
+            "content": "@@ -1,12 +1,13 @@\n+ \n class Pessoa\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-49-33",
+            "content": "@@ -198,10 +198,10 @@\n ir()\n-%22\n %7D\n+%22\n %0A   \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-49-59",
+            "content": "@@ -194,18 +194,18 @@\n inheir()\n-%7D\n %22\n+%7D\n %0A    %0A  \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-50-21",
+            "content": "@@ -175,17 +175,16 @@\n etNome()\n-%7D\n :%7Bself.g\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-50-49",
+            "content": "@@ -374,33 +374,32 @@\n  self.__dinheiro\n-:\n %0A            val\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-51-04",
+            "content": "@@ -616,25 +616,24 @@\n , valor:int)\n-:\n %0A        sel\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-51-13",
+            "content": "@@ -1122,25 +1122,24 @@\n tancia: int)\n-:\n %0A        sel\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-51-22",
+            "content": "@@ -1439,17 +1439,16 @@\n geiro) =\n-=\n  custo%0A \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-51-44",
+            "content": "@@ -1439,16 +1439,17 @@\n geiro) =\n+=\n  custo%0A \n@@ -1447,32 +1447,40 @@\n = custo%0A        \n+receber(\n motorista.recebe\n@@ -1476,23 +1476,17 @@\n ista\n-.receber(\n+) = \n custo\n-)\n %0A   \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-55-41",
+            "content": "@@ -1412,32 +1412,38 @@\n money%22)%0A        \n+pagar(\n passageiro.receb\n@@ -1436,31 +1436,25 @@\n ssageiro\n-.receber(\n+) = \n custo\n-)\n %0A       \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_03-56-51",
+            "content": "@@ -712,19 +712,17 @@\n .__custo\n- = \n+:\n  0 %0A    \n@@ -741,19 +741,17 @@\n otorista\n- = \n+:\n  None%0A  \n@@ -773,19 +773,17 @@\n ssageiro\n- = \n+:\n  None%0A  \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-03-35",
+            "content": "@@ -1813,24 +1813,25 @@\n    elif comm\n+n\n and ==  %22set\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-03-59",
+            "content": "@@ -173,16 +173,18 @@\n .getNome\n+()\n %7D:%7Bself.\n@@ -193,17 +193,18 @@\n tDinheir\n-o\n+()\n %7D%22%0A    %0A\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-06-33",
+            "content": "@@ -166,19 +166,20 @@\n f%22%7Bself.\n-__n\n+getN\n ome%7D:%7Bse\n@@ -177,27 +177,28 @@\n Nome%7D:%7Bself.\n-__d\n+getD\n inheiro%7D%22%0A  \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-07-49",
+            "content": "@@ -1904,32 +1904,29 @@\n             \n-motorist\n+pesso\n a = Pessoa(n\n@@ -1927,24 +1927,8 @@\n ssoa\n-(nome, dinheiro)\n %0A   \n@@ -1954,24 +1954,21 @@\n torista(\n-motorist\n+pesso\n a)%0A%0A    \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-13-14",
+            "content": "@@ -2102,25 +2102,21 @@\n        p\n-a\n+e\n ss\n-ageir\n o\n+a\n  = Pesso\n@@ -2116,32 +2116,16 @@\n = Pessoa\n-(nome, dinheiro)\n %0A       \n@@ -2149,25 +2149,21 @@\n ageiro(p\n-a\n+e\n ss\n-ageir\n o\n+a\n )%0A%0A     \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-14-09",
+            "content": "@@ -2017,16 +2017,23 @@\n %22setPass\n+ageiro%22\n :%0A      \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-16-46",
+            "content": "@@ -2017,22 +2017,16 @@\n %22setPass\n-ageiro\n :%0A      \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-16-58",
+            "content": "@@ -2023,17 +2023,16 @@\n ssageiro\n-%22\n :%0A      \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-17-05",
+            "content": "@@ -2013,24 +2013,30 @@\n  == %22setPass\n+ageiro\n %22:%0A         \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-17-20",
+            "content": "@@ -1092,20 +1092,16 @@\n ageiro%0A%0A\n-    \n     def \n@@ -1133,28 +1133,24 @@\n t):%0A        \n-    \n self.__custo\n@@ -1150,17 +1150,16 @@\n __custo \n-+\n = distan\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-20-08",
+            "content": "@@ -2209,17 +2209,17 @@\n and == %22\n-d\n+D\n rive%22:%0A \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-24-36",
+            "content": "@@ -1088,24 +1088,28 @@\n passageiro%0A%0A\n+    \n     def driv\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-27-05",
+            "content": "@@ -1544,17 +1544,16 @@\n = None%0A%0A\n-%0A\n def main\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-28_04-27-54",
+            "content": "@@ -292,26 +292,24 @@\n return self.\n-__\n dinheiro%0A   \n",
+            "lines": "102"
+        },
+        {
+            "label": "2025-10-28_04-29-30",
+            "content": "@@ -490,18 +490,16 @@\n         \n-el\n if valor\n@@ -499,17 +499,17 @@\n f valor \n-%3C\n+%3E\n = self._\n@@ -529,33 +529,32 @@\n           self._\n-_\n dinheiro -= valo\n",
+            "lines": "102"
+        },
+        {
+            "label": "2025-10-28_04-31-21",
+            "content": "@@ -1345,16 +1345,23 @@\n iro() %3C \n+self.__\n custo:%0A \n@@ -1442,20 +1442,22 @@\n sageiro.\n-paga\n+recebe\n r(custo)\n",
+            "lines": "102"
+        },
+        {
+            "label": "2025-10-28_04-32-39",
+            "content": "@@ -1485,86 +1485,8 @@\n to)%0A\n-        print(f%22%7Bpassageiro.getNome()%7D:%7Bint(passageiro.getDinheiro())%7D left%22)%0A\n     \n",
+            "lines": "102"
+        },
+        {
+            "label": "2025-10-28_04-39-32",
+            "content": "@@ -1521,16 +1521,19 @@\n ome()%7D:%7B\n+int\n (passage\n",
+            "lines": "103"
+        },
+        {
+            "label": "2025-10-28_04-40-08",
+            "content": "@@ -1552,16 +1552,17 @@\n ())%7D lef\n+t\n %22)%0A     \n",
+            "lines": "103"
+        },
+        {
+            "label": "2025-10-28_04-41-55",
+            "content": "@@ -1552,17 +1552,16 @@\n ())%7D lef\n-t\n %22)%0A     \n",
+            "lines": "103"
+        },
+        {
+            "label": "2025-10-28_04-42-11",
+            "content": "class Pessoa:\n    def __init__(self, nome: str, dinheiro: int):\n        self.__nome = nome\n        self.__dinheiro = dinheiro\n\n    def __str__(self):\n        return f\"{self.__nome}:{self.__dinheiro}\"\n    \n    def getNome(self):\n        return self.__nome\n\n    def getDinheiro(self):\n        return self.__dinheiro\n    \n    def pagar(self, valor: int):\n        if valor > self.__dinheiro:\n            valorPago = self.__dinheiro\n            self.__dinheiro = 0\n            return valorPago\n        elif valor <= self.__dinheiro:\n            self.__dinheiro -= valor\n            return valor\n    \n    def receber(self, valor:int):\n        self.__dinheiro += valor\n\nclass Moto:\n    def __init__(self):\n        self.__custo =  0 \n        self.__motorista =  None\n        self.__passageiro =  None\n    \n    def __str__(self):\n        return f\"Cost: {self.__custo}, Driver: {self.__motorista}, Passenger: {self.__passageiro}\"\n     \n    def setMotorista(self, motorista: Pessoa):\n        self.__motorista = motorista\n    \n    def setPassageiro(self, passageiro: Pessoa):\n        self.__passageiro = passageiro\n\n    def drive(self, distancia: int):\n            self.__custo += distancia\n    \n    def leavePass(self):\n        passageiro = self.__passageiro\n        motorista = self.__motorista\n        custo = self.__custo\n        if passageiro.getDinheiro() < custo:\n            print(\"fail: Passenger does not have enough money\")\n        passageiro.pagar(custo)\n        motorista.receber(custo)\n        print(f\"{passageiro.getNome()}:{(passageiro.getDinheiro())} left\")\n        self.__custo = 0\n        self.__passageiro = None\n\n\ndef main():\n    moto = Moto()\n\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n        command = args[0]\n\n        if command == \"end\":\n            break\n\n        elif command == \"show\":\n            print(moto)\n\n        elif command ==  \"setDriver\":\n            nome = args[1]\n            dinheiro = int(args[2])\n            motorista = Pessoa(nome, dinheiro)\n            moto.setMotorista(motorista)\n\n        elif command == \"setPass\":\n            nome = args[1]\n            dinheiro = int(args[2])\n            passageiro = Pessoa(nome, dinheiro)\n            moto.setPassageiro(passageiro)\n\n        elif command == \"drive\":\n            distancia = int(args[1])\n            moto.drive(distancia)\n\n        elif command == \"leavePass\":\n            moto.leavePass()\n\nmain()\n\n\n\n        \n\n\n        \n\n\n        \n            ",
+            "lines": "103"
+        }
+    ]
+}
