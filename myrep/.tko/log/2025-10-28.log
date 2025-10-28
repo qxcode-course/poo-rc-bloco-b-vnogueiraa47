@@ -65,3 +65,5 @@
 2025-10-28 12:42:06, SELF, v:1, k:poo@grafite, rate:100, alone:10, study:180
 2025-10-28 13:06:44, MOVE, v:1, k:poo@motoca, mode:PICK
 2025-10-28 13:06:46, EXEC, v:1, k:poo@motoca, mode:FULL, rate:100
+2025-10-28 13:09:31, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-28 13:09:33, MOVE, v:1, k:poo@grafite, mode:BACK
