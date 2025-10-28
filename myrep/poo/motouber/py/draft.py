@@ -8,6 +8,7 @@
     
     def getNome(self):
         return self.__nome
+
     def getDinheiro(self):
         return self.dinheiro
     
@@ -32,6 +33,31 @@ class Moto:
     def __str__(self):
         return f"Cost: {self.__custo}, Driver: {self.__motorista}, Passenger: {self.__passageiro}"
      
-    def
+    def setMotorista(self, motorista: Pessoa):
+        self.__motorista = motorista
+    
+    def setPassageiro(self, passageiro: Pessoa):
+        self.__passageiro = passageiro
+
+    def drive(self, distancia: int)
+        self.__custo = distancia
+    
+    def leavePass(self):
+        passageiro = self.__passageiro
+        motorista = self.__motorista
+        custo = self.__custo
+        if passageiro.getDinheiro() < self.__custo:
+            print("fail: Passenger does not have enough money")
+        pagar(passageiro) = custo
+        receber(motorista) = custo
+        self.__custo = 0
+        self.__passageiro = None
+
+        
+
+
+        
+
+
         
             
